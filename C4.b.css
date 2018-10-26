@@ -1,0 +1,16 @@
+.strong{
+    font-weight: bold;
+}
+
+.italic{
+    font-style:italic;
+}
+
+table{
+    width:500px;
+    height:500px;
+}
+
+.grey{
+    background-color: grey;
+}
