@@ -1,0 +1,31 @@
+body{background-color:white;
+}
+table{border:2px dashed red;
+}
+
+.bold{
+    color:red;
+    font-weight:bold;
+}
+
+.green{
+    color:green;
+}
+
+.size1{
+    width: 200px;
+    height:40px;
+    text-align:center;
+}
+
+.mirror .bold{
+    color:green;
+} 
+
+.mirror .green{
+    color:red
+}
+
+.mirror {
+    border-color: green;
+}
