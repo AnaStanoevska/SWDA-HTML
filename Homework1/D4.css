@@ -65,7 +65,7 @@ li a {
 }
 
 .main-news-section .left {
-    width: calc(60%);
+    width: calc(50%);
     height: calc(400px);
     border: 1px;
     float: left;
@@ -82,22 +82,10 @@ img {
 }
 
 .main-news-section .right-up {
-    width: calc(10% - 10px);
-    height: calc(100px - 20px);
+    width: calc(30%);
+    height: calc(150px);
     float: right ; 
     margin-left: 10px;
+    margin-top:20px;
+    background-color: blue;
 }
-
-.car{
-    vertical-align: 50%;
-    width: 100%;
-
-
-}
-.main-news-section .right-down {
-    width: calc(30% - 10px);
-    height: calc(500px - 20px);
-    background-color: red;
-    float: right; 
-}
-
