@@ -2,6 +2,7 @@ body {
     padding: 0;
     margin: 0;
     background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .site-container {
@@ -9,16 +10,94 @@ body {
     background-color: #fff;
     margin: 0 auto 0 auto;
     box-sizing: border-box;
+}
+
+.site-header {
+    width: 100%;
+    height: 80px;
+    background-color:red;
+    margin-bottom: 10px;
+}
+
+.colorheadertext {
+    color: white;
+    text-align: center;
+    margin: 0;   
+    padding-top: 10px;
+}
+
+.navigation{
+    padding: 5px 5px;
+    border-bottom: 1px solid transparent;
+    margin-bottom: 1px;
+    background-color: #fff;
+    padding-left: 30px;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
     padding: 0;
 }
 
-    .site-header {
-        width: 100%;
-        height: 100px;
-        background-color: red;
-        color: white;
-        text-emphasis: padding;
-    }
+li {
+    float: left;
+    padding-inline-start: 10px;
+}
 
-    
-    }
+li a {
+    display: block;
+    width: 10px;
+    display: inline;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+.main-news-section {
+    width: 70%;
+    height: 500px;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.main-news-section .left {
+    width: calc(60%);
+    height: calc(400px);
+    border: 1px;
+    float: left;
+    margin-left: 150px;
+    margin-bottom: 70px;
+    margin-top: 20px; 
+    color:black;
+    text-decoration: none;
+}
+
+img {
+    vertical-align: -webkit-baseline-middle;
+    width: 100%;
+}
+
+.main-news-section .right-up {
+    width: calc(10% - 10px);
+    height: calc(100px - 20px);
+    float: right ; 
+    margin-left: 10px;
+}
+
+.car{
+    vertical-align: 50%;
+    width: 100%;
+
+
+}
+.main-news-section .right-down {
+    width: calc(30% - 10px);
+    height: calc(500px - 20px);
+    background-color: red;
+    float: right; 
+}
+
