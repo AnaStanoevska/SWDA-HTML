@@ -5,7 +5,7 @@
 }
 
 body{
-    width: 100%;
+    width: 1920px;
     height: 1090px;
     color: #666666;
     font-family: Arial, Helvetica, sans-serif;
@@ -132,9 +132,9 @@ nav{
     background-color: #ffffff;
     border-bottom: 1px solid #DCDDDF;
     margin: 10px;
-    padding: 5px;
+    padding: 10px;
     display: inline-block;
-    width: 350px;
+    width: 380px;
     min-height: 250px;
     padding: 5px;
 }
