@@ -18,6 +18,10 @@ body {
     height: 1235px;
     margin-top: 155px;
     margin-left: 163px;
+    display: flex;
+    flex-direction: row;
+	flex-wrap: nowrap;
+	/* justify-content: space-between; */
 }
 
     .col-1 {
@@ -294,4 +298,91 @@ body {
                 padding-top: 15px;
             }
 
-    
+/* kolona 1 done */
+
+    .col-2 {
+        width: 368px;
+        height: 1230px;
+        border-radius: 30px;
+        margin-left: 114px;
+    }
+
+        .first-col-two {
+            width: 368px;
+            height: 630px;
+        }
+
+            .col-two-top {
+                width: 368px;
+                height: 340px;
+                background-image: url(./SLIKI/Photo.png);
+                border-top-left-radius: 30px;
+                border-top-right-radius: 30px;
+                position: relative;
+            }
+
+                .year {
+                    position: absolute;
+                    color: #ffffff;
+                    font-size: 24px;
+                    top:90px;
+                    left: 153px;
+                }
+
+                .play-date {
+                    position: absolute;
+                    color: #ffffff;
+                    font-size: 37px;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    top: 130px;
+                    font-weight: bold;
+                }
+
+                    .play-left {
+                        margin-right: 68px;
+                    }
+
+                    .play-right {
+                        margin-left: 58px;
+                    }
+
+                    .today {
+                        position: absolute;
+                        width: 110px;
+                        height: 24px;
+                        border-radius: 24px;
+                        border: none;
+                        color: #fff;
+                        font-size: 10px;
+                        text-align: center;
+                        background-color: #4db2ac;
+                        margin-top: 345px;
+                        margin-top: 185px;
+                        margin-left: 125px;
+                    }
+                
+                .one-week {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: nowrap;
+                    justify-content: space-between;
+                    align-items: center;
+                    align-content: stretch;
+                    background-color: #2e2d36; opacity:0.7;
+                    width: 368px;
+                    height: 50px;
+                    position: absolute;
+                    color: #ffffff;
+                    bottom: 0px;
+                    padding: 0px 29px;
+                }
+
+                    .Day1-7 {
+                        color: #ffffff;
+                    }
+        
+            .col-two-bottom {
+                
+            }
+            
