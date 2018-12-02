@@ -383,6 +383,38 @@ body {
                     }
         
             .col-two-bottom {
-                
+                width: 368px;
+                height: 290px;
+                position: relative;
+                background-color: #2e2d36;
+                border-bottom-left-radius: 30px;
+                border-bottom-right-radius: 30px;
             }
             
+                .calendar-month {
+                    list-style-type: none;
+                    color: #ffffff;
+                    font-size: 10px;
+                    font-weight: bold;
+                }
+
+                    .calendar {
+                        list-style-type: none;
+                        color: #ffffff; 
+                        padding: 26px 0px;
+                    }
+
+                    .break {
+                        padding: 16px 26px;
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        justify-content: space-between;
+                        align-items: flex-end;
+                        font-weight: bold;
+                    }
+
+                        .passive {
+                            color: #7e7e7e;
+                        }
+
