@@ -447,6 +447,15 @@ body {
                 }
 
                 .menu-line {
+                    position: absolute;
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: nowrap;
+                    justify-content: space-between;
+                    align-items: center;
+                    align-content: flex-start;
+                    padding-right: 27px;
+                    padding-left: 255px;
                     width: 368px;
                     height: 44px;
                     background-color: #2e2d36; opacity:0.9;
@@ -454,17 +463,29 @@ body {
                     margin-top: 330px;
                 }
 
-                .menu-line {
-                    position: absolute;
-                    display: flex;
-                    flex-direction: row;
-                    flex-wrap: nowrap;
-                    justify-content: flex-end;
-                    align-content: space-between;
-                }
+        .second-col-two-bottom {
+            width: 368px;
+            height: 153px;
+            background-color: #1f211f;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
 
-                    .icon {
-                        position: absolute;
-                        color: #ffffff;
-                        line-height: 5px;
-                    }
+            .headphones {
+                font-size: 30px;
+                color: #edec93;
+                padding-top: 34px;
+                padding-left: 40px;
+                font-weight: lighter;
+            }
+
+            .headphones-description {
+                color: #ffffff;
+                font-size: 15px;
+                padding-left: 40px;
+                font-family: sans-serif;
+                margin-top: 10px;
+            }
+
+/* kolona 2 - end */
+
