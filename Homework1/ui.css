@@ -418,3 +418,53 @@ body {
                             color: #7e7e7e;
                         }
 
+        .second-col-two {
+            width: 368px;
+            height: 525px;
+        }
+
+            .second-col-two-top {
+                width: 368px;
+                height: 372px;
+                background-image: url(./SLIKI/sony.png);
+                border-top-left-radius: 20px;
+                border-top-right-radius: 20px;
+                margin-top: 76px;
+            }
+
+                .price {
+                    position: absolute;
+                    width: 109px;
+                    height: 46px;
+                    border: none;
+                    color: #fff;
+                    font-size: 21px;
+                    background-color: #4db2ac;
+                    border-top-left-radius: 30px;
+                    border-bottom-left-radius: 30px;
+                    margin-top: 38px;
+                    margin-left: 259px;
+                }
+
+                .menu-line {
+                    width: 368px;
+                    height: 44px;
+                    background-color: #2e2d36; opacity:0.9;
+                    position: absolute;
+                    margin-top: 330px;
+                }
+
+                .menu-line {
+                    position: absolute;
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: nowrap;
+                    justify-content: flex-end;
+                    align-content: space-between;
+                }
+
+                    .icon {
+                        position: absolute;
+                        color: #ffffff;
+                        line-height: 5px;
+                    }
