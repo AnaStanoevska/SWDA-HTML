@@ -153,7 +153,6 @@ body {
                 .cloud {
                     position: absolute;
                     font-size: 47px;
-                    
                 }
 
                 .weather-description {
@@ -489,3 +488,156 @@ body {
 
 /* kolona 2 - end */
 
+    .col-3 {
+        width: 767px;
+        height: 1231px;
+        margin-left: 114px;
+    }
+
+        .first-col-three {
+            width: 767px;
+            height: 510px;
+            background-image: url(./SLIKI/caffee.png);
+            border-radius: 30px;
+        }
+            .play {
+                width: 80px;
+                height: 80px;
+                border-radius: 50%;
+                border: 3px solid white;
+                background-color: #444c45; opacity: 0.6;
+                align-content: center;
+                position: absolute;
+                margin-top: 175px;
+                margin-left: 337px;
+            }
+
+                .playB {
+                    margin: 28px;
+                }
+
+            .play-duration {
+                width: 767px;
+                height: 75px;
+                background-color: #4f544b;
+                opacity: 0.8;
+                position: absolute;
+                margin-top: 436px;
+                border-bottom-left-radius: 30px;
+                border-bottom-right-radius: 30px;
+            }
+
+        
+
+                .mini-play {
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    background-color: #49a5a0;
+                    align-content: center;
+                    position: absolute;
+                    margin-top: 20px;
+                    margin-left: 15px;
+                    border: 2px solid white;
+                    }
+
+                    .first-play {
+                        margin: 12px;
+                        height: 15px; 
+                    }
+
+                    .duration-start {
+                        color: #ffffff;
+                        position: absolute;
+                        margin-top: 30px;
+                        margin-left: 100px;
+                    }
+
+                    .duration-end {
+                        color: #ffffff;
+                        position: absolute;
+                        margin-top: 30px;
+                        margin-left: 497px;
+                    }
+
+                    .time-duration-start {
+                        width: 174px;
+                        height: 8px;
+                        position: absolute;
+                        border-bottom-left-radius: 5px;
+                        border-top-left-radius: 5px;
+                        background-color: #49a5a0;
+                        margin-top: 39px;
+                        margin-left: 148px;
+                    }
+
+                    .time-duration-end {
+                        width: 162px;
+                        height: 8px;
+                        position: absolute;
+                        border-bottom-right-radius: 5px;
+                        border-top-right-radius: 5px;
+                        background-color: #ffffff;
+                        margin-top: 39px;
+                        margin-left: 322px;
+                    }
+
+                ..duration-buttons {
+                    position: absolute;
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: nowrap;
+                    justify-content: flex-end;
+                    align-items: center;
+                }
+
+                    .audio {
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 50%;
+                        background-color: #49a5a0;
+                        margin-top: 20px;
+                        margin-left: 573px;
+                        border: 2px solid white;
+                        position: absolute;
+                    }
+
+                        .volume {
+                            margin: 12px;
+                            height: 15px; 
+                        }
+
+                    .hd {
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 50%;
+                        background-color: #ffffff;
+                        margin-top: 20px;
+                        margin-left: 640px;
+                        color: #242424;
+                        position: absolute;
+                    }
+    
+                        .hd-text {
+                            height: 15px; 
+                            position: absolute;
+                            font-weight: bold;
+                            margin: 8px;
+                        }
+
+                    .dashed {
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 50%;
+                        background-color: #49a5a0;
+                        margin-top: 20px;
+                        margin-left: 710px;
+                        border: 2px solid white;
+                        position: absolute;
+                    }
+
+                        .dash {
+                            margin: 12px;
+                            height: 15px; 
+                            background-color: transparent;
+                        }
