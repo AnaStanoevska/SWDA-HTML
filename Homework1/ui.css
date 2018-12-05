@@ -112,7 +112,6 @@ body {
                     padding: 16px;
                 }
 
-
     .second {
         width: 366px;
         height: 526px;
@@ -566,7 +565,7 @@ body {
                         position: absolute;
                         border-bottom-left-radius: 5px;
                         border-top-left-radius: 5px;
-                        background-color: rgb(39, 189, 181);
+                        background-color: rgba(39, 189, 181);
                         margin-top: 39px;
                         margin-left: 148px;
                     }
@@ -651,7 +650,6 @@ body {
             flex-wrap: nowrap;
             justify-content: flex-start;
             align-items: center;
-            margin-left: 0px;
         }
 
             .fb {
@@ -664,8 +662,8 @@ body {
             }
 
                 .facebook {
-                    margin-top: 10px;
-                    margin-left: 9px;
+                    margin-top: 20px;
+                    margin-left: 17px;
                 }
 
             .twitter {
@@ -718,10 +716,10 @@ body {
                 border-radius: 20px;
                 background-color: #1f211f;
                 color: #ffffff;
-                border-color: none;
                 margin-top: 90px;
-                margin-left: 495px;
+                margin-left: 490px;
                 text-align: center;
+                border-style: none;
             }
 
     .third-col-three {
@@ -815,7 +813,8 @@ body {
                     position: absolute;
                     margin-top: -100px;
                     margin-left: 450px;
-                    box-shadow: 2px 2px 4px white;
+                    -webkit-box-shadow: 0 0 5px 2px #fff;
+                    box-shadow: 0 0 5px 2px #fff;
                 }
     
                     .facebook-2 {
@@ -845,6 +844,8 @@ body {
                     margin-top: -100px;
                     margin-left: 650px;
                     box-shadow: 2px 2px 4px white;
+                    -webkit-box-shadow: 0 0 5px 2px #fff;
+                    box-shadow: 0 0 5px 2px #fff;
                     
                 }
     
