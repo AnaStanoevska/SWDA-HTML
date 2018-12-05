@@ -72,7 +72,7 @@ body {
                 height: 50px;
                 width: 50px;
                 border-radius: 50%;
-                margin-top: 340px;
+                margin-top: 350px;
                 margin-left: 34px;
             }
 
@@ -82,7 +82,7 @@ body {
                     font-weight: bold;
                     text-align: center;
                     font-size: 12px;
-                    padding: 15px;
+                    padding: 16px;
                 }
 
                 .yellows {
@@ -91,7 +91,7 @@ body {
                     font-weight: bold;
                     text-align: center;
                     font-size: 12px;
-                    padding: 15px;
+                    padding: 16px;
                 }
 
                 .greys {
@@ -100,7 +100,7 @@ body {
                     font-weight: bold;
                     text-align: center;
                     font-size: 12px;
-                    padding: 15px;
+                    padding: 16px;
                 }
 
                 .whites {
@@ -109,7 +109,7 @@ body {
                     font-weight: bold;
                     text-align: center;
                     font-size: 12px;
-                    padding: 15px;
+                    padding: 16px;
                 }
 
 
@@ -197,7 +197,7 @@ body {
                 align-items: flex-start;
                 align-content: flex-start;
                 font-size: 10px;
-                padding-top: 22px;
+                padding-top: 23px;
                 padding-left: 30px;
             }
 
@@ -205,7 +205,7 @@ body {
                     text-transform: uppercase;
                     color: #ffffff;
                     font-weight: bold;
-                    margin-top: 15px;
+                    margin-top: 14px;
                     margin-bottom: 15px;
                 }
 
@@ -566,7 +566,7 @@ body {
                         position: absolute;
                         border-bottom-left-radius: 5px;
                         border-top-left-radius: 5px;
-                        background-color: #49a5a0;
+                        background-color: rgb(39, 189, 181);
                         margin-top: 39px;
                         margin-left: 148px;
                     }
@@ -577,7 +577,7 @@ body {
                         position: absolute;
                         border-bottom-right-radius: 5px;
                         border-top-right-radius: 5px;
-                        background-color: #ffffff;
+                        background-color:rgba(255, 255, 255, 1);
                         margin-top: 39px;
                         margin-left: 322px;
                     }
@@ -597,10 +597,10 @@ body {
                         width: 40px;
                         height: 40px;
                         border-radius: 50%;
-                        background-color: #49a5a0;
+                        background-color: rgba(73, 165, 160, 1);
                         margin-top: 20px;
                         margin-left: 573px;
-                        border: 2px solid white;
+                        border: 2px solid rgba(255, 255, 255, 1);
                         position: absolute;
                     }
 
@@ -613,7 +613,7 @@ body {
                         width: 40px;
                         height: 40px;
                         border-radius: 50%;
-                        background-color: #ffffff;
+                        background-color: rgba(255, 255, 255, 1);
                         margin-top: 20px;
                         margin-left: 640px;
                         color: #242424;
@@ -631,10 +631,10 @@ body {
                         width: 40px;
                         height: 40px;
                         border-radius: 50%;
-                        background-color: #49a5a0;
+                        background-color: rgba(73, 165, 160, 1);
                         margin-top: 20px;
                         margin-left: 710px;
-                        border: 2px solid white;
+                        border: 2px solid rgba(255, 255, 255, 1);
                         position: absolute;
                     }
 
@@ -664,7 +664,8 @@ body {
             }
 
                 .facebook {
-                    padding: 20px;
+                    margin-top: 10px;
+                    margin-left: 9px;
                 }
 
             .twitter {
@@ -693,7 +694,7 @@ body {
             }
 
                 .google {
-                    padding: 20px 10px;
+                    margin: 20px 5px;
                 }
 
             .insta {
@@ -738,7 +739,7 @@ body {
             color: #ffffff;
             position: absolute;
             margin-top: 20px;
-            border-bottom: 1px solid #ffffff;
+            border-bottom: solid white; solid #ffffff;
         }
 
         .signing {
@@ -752,7 +753,7 @@ body {
                     width: 290px;
                     height: 48px;
                     border-radius: 30px;
-                    border: 1px solid #ffffff;
+                    border: solid white; solid #ffffff;
                     background-color: transparent;
                     color: #ffffff;
                     margin: 10px;
@@ -778,7 +779,7 @@ body {
         }
 
             .account {
-                color: #c8c77f;
+                color: rgb(200, 199, 127);
                 text-align: center;
                 position: absolute;
                 height: 20px;
@@ -787,4 +788,68 @@ body {
                 font-weight: bold;
             }
 
+        .vertical-line {
+            height: 200px;
+            width: 300px;
+            border-left: 1px solid rgba(255, 255, 255, 0.356);
+            margin-top: -400px;
+            margin-left: 50%;
+        }
+
+        .connect-with {
+            position: absolute;
+            color: white;
+            margin-left: 500px;
+            margin-top: -180px;
+            display: inline;
+            font-size: 25px;
+            font-weight: lighter;
+        }
+
+
+                .fb-two {
+                    width: 70px;
+                    height: 70px;
+                    border-radius: 50%;
+                    background-color: #1f211f;
+                    position: absolute;
+                    margin-top: -100px;
+                    margin-left: 450px;
+                    box-shadow: 2px 2px 4px white;
+                }
+    
+                    .facebook-2 {
+                        padding: 10px;
+                    }
+    
+                .twitter-two {
+                    width: 70px;
+                    height: 70px;
+                    border-radius: 50%;
+                    background-color: #ffffff;
+                    position: absolute;
+                    margin-top: -100px;
+                    margin-left: 550px;
+                }
+    
+                    .twit-2 {
+                        padding: 10px;
+                    }
+    
+                .g-two {
+                    width: 70px;
+                    height: 70px;
+                    border-radius: 50%;
+                    background-color: #1f211f;
+                    position: absolute;
+                    margin-top: -100px;
+                    margin-left: 650px;
+                    box-shadow: 2px 2px 4px white;
+                    
+                }
+    
+                    .google-2 {
+                        padding: 10px 3px;
+                    }
+          
                
