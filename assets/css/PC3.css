@@ -1,0 +1,121 @@
+html, body {
+    font-family: sans-serif;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+    #main {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+        .calendar-container {
+            width: 369px;
+            border-radius: 10px;
+            background-color: #242424;
+            box-shadow: 0 0 45px 1px #00000063;
+        }
+
+            .calendar-section.top {
+                width: 100%;
+                height: 341px;
+                background: url("../images/Photo.png");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+            }
+
+            .days-display {
+                width: 100%;
+                position: absolute;
+                bottom: 0;
+                height: 51px;
+                line-height: 51px;
+                background: rgba(36, 36, 36, 0.5);
+                box-sizing: border-box;
+                padding:0px 29px;
+            }
+
+                .days-display ul {
+                    list-style: none;
+                    margin: 0px;
+                    padding: 0px;
+                }
+
+                .days-display ul li {
+                    float: left;
+                    width: calc(100% / 7);
+                    text-align: center;
+                }
+
+                .days-display ul li span {
+                    color: #fff;
+                    font-size: 14px;
+                    text-transform: uppercase;
+                }
+
+            .calendar-section.bottom {
+                width: 100%;
+                box-sizing: border-box;
+                padding: 29px;
+            }
+
+                .calendar-days {
+                    margin: 0px;
+                    padding: 0px;
+                    list-style: none;
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+
+                    .calendar-days .single-day {
+                        font-size: 14px;
+                        color: #FFF;
+                        width: calc(100% / 7);
+                        height: 44px;
+                        line-height: 44px;
+                        text-align: center;
+                        cursor: pointer;
+                    }
+
+                    .calendar-days .single-day.past, .calendar-days .single-day.next {
+                        opacity: 0.4;
+                    }
+
+                    .calendar-days .single-day.selected {
+                        border-radius: 50%;
+                        background-color: #edec93;
+                        color: #242424;
+                    }
+
+                    .calendar-days .single-day.today {
+                        position: relative;
+                    }
+
+                    .calendar-days .single-day.today:after {
+                        content: ".";
+                        width: 5px;
+                        height: 5px;
+                        border-radius: 50%;
+                        background-color: #edec93;
+                        display: inline-block;
+                        position: absolute;
+                        bottom: 5px;
+                        left: 0;
+                        right: 0;
+                        margin: auto;
+
+
+                    }
+
+
+
+
