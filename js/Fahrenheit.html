@@ -8,24 +8,26 @@
     <script src="Fahrenheit.js"></script>
 </head>
 <body>
-    <input id="number" type="number"/>
-        <select id="select">
-            <option id="C" value="celsius">C2F</option>
-            <option id="F" value="fahrenheit">F2C</option>
+    <input class="number" type="number"/>
+        <select class="select">
+            <option class="cel" value="celsius">C2F</option>
+            <option class="far"value="fahrenheit">F2C</option>
         </select>
-    <button id="equal" type="button">=</button>
-    <input id="result" type="result"/> </br>
+    <button onclick="calc();">=</button>
+    <input class="result" type="result"/> </br>
+
+    </hr>
 
 
-    <input id="number1" type="number"/>
-        <select id="select">
-            <option id="add" value="symbol">+</option>
-            <option id="subtrackt" value="symbol">-</option>
-            <option id="devide" value="symbol">/</option>
-            <option id="multiply" value="symbol">*</option>
+    <input class="a" type="number"/>
+        <select class="select">
+            <option class="add" value="symbol">+</option>
+            <option class="subtract" value="symbol">-</option>
+            <option class="divide" value="symbol">/</option>
+            <option class="multiply" value="symbol">*</option>
         </select>
-    <input id="number2" type="number"/>
-    <button id="equal" type="button">=</button>
-    <input id="result" type="result"/>
+    <input class="b" type="number"/>
+    <button class="calc" onclick="calc();">=</button>
+    <input class="res" type="result"/>
 </body>
-</html
+</html>
