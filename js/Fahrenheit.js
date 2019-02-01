@@ -1,24 +1,39 @@
- function calc () {
-     var a = parseInt (document.querySelector('.a') .value);
-     var b = parseInt (document.querySelector('.b') .value);
-     var sel = parseInt (document.querySelector('.select') .value);
+var a = document.querySelector('.a');
+var b = document.querySelector('.b');
+var op = document.querySelector('#op');
+var res = document.querySelector('.res');
+var calc = document.querySelector('.calc');
 
-if(sel ==='+') {
-    document.querySelector('res').value = a + b;
-}
+calc.addEventListener('click', function(){
+    switch(op.value){
+        case '+':
+            res.value = parseInt(a.value) + parseInt(b.value);
+            break;
+        case '-':
+            res.value = parseInt(a.value) - parseInt(b.value);
+            break;
+        case '/':
+            res.value = parseInt(a.value) / parseInt(b.value);
+            break;
+        case '*':
+            res.value = parseInt(a.value) * parseInt(b.value);
+            break;
+    }
+});
 
-if(sel ==='-') {
-    document.querySelector('res').value = a - b;
-}
 
-if(sel ==='/') {
-    document.querySelector('res').value = a / b;
-}
+// 
 
-if(sel ==='*') {
-    document.querySelector('res').value = a * b;
-}
+var t = document.querySelector('.t');
+var func = document.querySelector('.func');
+var conv = document.querySelector('.conv');
+var cv = document.querySelector('.cv');
 
-}
-
+conv.addEventListener('click', function(){
+    if(func.value == 'f2c'){
+        cv.value = (parseInt(t.value) -32) * 5/9;
+    } else if(func.value == 'c2f') {
+        cv.value = parseInt(t.value) * 9/5 +32;
+    }
+});
 
