@@ -1,18 +1,22 @@
-function myFunction() {
-    if (document.getElementById("select").value == "Celcius") {
-      convertc();
-    } else {
-      convertf();
-    }
-  }
-  
-  function convertc() {
-    var x;
-    x = (document.getElementById("number").value - 32) * 5 / 9;
-    document.getElementById("result").value = Math.round(x);
-  }
-  
-  function convertf() {
-    var x;
-    x = document.getElementById("number").value * 9 / 5 + 32;
-    document.getElementById("result").value = Math.round(x);
+ function calc () {
+     var a = parseInt (document.querySelector('.a') .value);
+     var b = parseInt (document.querySelector('.b') .value);
+     var sel = parseInt (document.querySelector('.select') .value);
+
+if(sel ==='+') {
+    document.querySelector('res').value = a + b;
+}
+
+if(sel ==='-') {
+    document.querySelector('res').value = a - b;
+}
+
+if(sel ==='/') {
+    document.querySelector('res').value = a / b;
+}
+
+if(sel ==='*') {
+    document.querySelector('res').value = a * b;
+}
+
+}
