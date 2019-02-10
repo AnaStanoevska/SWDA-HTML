@@ -1,9 +1,8 @@
 function calc () {
-var height = document.querySelector('.m');
-var weight = document.querySelector('.kg');
+var height = document.querySelector('.m').value;
+var weight = document.querySelector('.kg').value;
 var submit = weight / (height * height);
 
-
 document.querySelector(".submit");
-console.log(submit);
+document.write(submit);
 }
