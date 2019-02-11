@@ -10,7 +10,7 @@ var ime = document.querySelector('.iminja');
 
 
 
-document.addEventListener('click', function(){
+document.addEventListener('change', function(){
     switch(ime.value){ 
         case 'Pero':
             console.log("Pero"); 

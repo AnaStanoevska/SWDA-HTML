@@ -1,4 +1,5 @@
 var iminja = ['Ана','Марија','Весна','Aлександра'];
+
 function iminja() {
     var najdolgo = iminja [0];
     var najkratko = iminja [0];
