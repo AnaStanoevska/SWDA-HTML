@@ -7,13 +7,15 @@
     <title>Document</title>
 </head>
 <body>
-    <input class="number" type="number" value="">
-    <select class="valuta">
-        <option class="usd">USD</option>
-        <option class="eur">EUR</option>
-    </select>
-    <button>=</button>
-<output class="result">MKD</output>
-<script src="./valuti.js"></script>
+    <div class="currency-converter">
+            <input type="text" id="amount" placeholder="Enter Amount" />
+            <select name="curency" id="curency">
+                <option selected value="usd">USD</option>
+                <option value="eur">EUR</option>
+            </select>
+            <button id="convert">Convert</button>
+            <h2 id="result">Conversion in MKD: </h2>
+        </div>
+        <script type="text/javascript" src="./js/global.js"></script>
 </body>
 </html>
