@@ -3,5 +3,6 @@ var B = document.querySelector('.slider');
 
 
 B.addEventListener('change', function() {
-  A.style.width = B.value + 'px';
+  A.style.width = this.value + "px";
+  A.style.height = this.value + "px";
   });
