@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 1920px;
+    height: 1080px;
+}
+
+    .left-container {
+        height: 100%;
+        width: 1420px;
+        background-color: #87AAD3;
+        opacity: 0.6;
+        float: left;
+    }
+
+        .logo {
+            width: 50px;
+            height: 50px;
+            float: left;
+            padding: 10px 0 0 40px; 
+        }
+
+        /* .meadle-container {
+            width: 950px;
+            height: 985px;
+            border: 10px solid #EFEEEA;
+            padding: 60px 60px 60px auto;
+        } */
+
+        .hello {
+            text-transform: uppercase;
+            font-size: 250px;
+        }
+
+        .projects {
+            text-transform: uppercase;
+            font-size: 30px;
+            color: #EFEEEA;
+        }
+
+    .right-container {
+        height: 100%;
+        width: 500px;
+        background-color: #EFEEEA;
+        float: right;
+    }
