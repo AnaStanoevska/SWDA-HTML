@@ -1,18 +1,19 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: "Montserrat";
 }
 
 body {
-    width: 1920px;
-    height: 1080px;
+    width: 100%;
+    height: 100vh; 
+    position: relative;
 }
 
     .left-container {
-        height: 100%;
-        width: 1420px;
-        background-color: #87AAD3;
-        opacity: 0.6;
+        height: 100vh;
+        width: 75%;
+        background-color:rgba(135, 170, 211, 0.6);
         float: left;
     }
 
@@ -23,27 +24,68 @@ body {
             padding: 10px 0 0 40px; 
         }
 
-        /* .meadle-container {
-            width: 950px;
-            height: 985px;
-            border: 10px solid #EFEEEA;
-            padding: 60px 60px 60px auto;
-        } */
-
         .hello {
             text-transform: uppercase;
             font-size: 250px;
+            font-weight: 800;
+            padding: 20% 16%;
+            letter-spacing: 20px;
+        }
+
+        .illustration {
+            width: 88px;
+            height: 87px;
+            position: absolute;
+            padding: 21% 50%;
+            overflow: hidden;
         }
 
         .projects {
             text-transform: uppercase;
             font-size: 30px;
-            color: #EFEEEA;
+            color:#EFEEEA;
+            font-weight: bolder;
+            position: absolute;
+        }
+        .project {
+            bottom: 20px;
+            left: 20px;
+            font-weight: bolder;
+        }
+        .about {
+            top: 20px;
+            right: 20px;
+            font-weight: bolder;
+            color: rgb(135, 170, 211);
+        }
+        .contact {
+            bottom: 20px;
+            right: 18px;
+            font-weight: bolder;
+            color:rgb(135, 170, 211);
         }
 
     .right-container {
-        height: 100%;
-        width: 500px;
+        height: 100vh;
+        width: 25%;
         background-color: #EFEEEA;
-        float: right;
+        float: left;
     }
+
+        .iAm {
+            font-size: 30px;
+            font-weight: 800;
+            text-transform: uppercase;
+            position: absolute;
+            top: 60%;
+            left: 76%;
+        }
+
+.mid-container {
+    border: 10px solid white;
+    width: 40%;
+    height: 80%;
+    position: absolute;
+    top: 9%;
+    left: 51%;
+}
