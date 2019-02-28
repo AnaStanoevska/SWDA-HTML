@@ -17,22 +17,31 @@ body {
         float: left;
     }
 
-        .logo {
-            width: 50px;
-            height: 50px;
-            float: left;
-            padding: 10px 0 0 20px; 
-        }
-        
-        .selected {
-            font-size: 30px;
-            font-weight: 800;
-            text-transform: uppercase;
-            position: absolute;
-            top: 10%;
-            left: 1%;
-        }
+    .selected-works {
+        font-size: 30px;
+        font-weight: 800;
+        text-transform: uppercase;
+        position: absolute;
+        top: 9%;
+        left: 7%;
+    }
 
+    .categories {
+        font-size: 30px;
+        font-weight: 800;
+        text-transform: uppercase;
+        position: absolute;
+        top: 30%;
+        left: 15%;
+        color:#EFEEEA;
+    }
+
+        .logo {
+            width: 3%;
+            height: 4%;
+            float: left;
+            padding: 2.3% 0 0 6%; 
+        }
 
         .projects {
             text-transform: uppercase;
@@ -40,21 +49,22 @@ body {
             color:#EFEEEA;
             font-weight: bolder;
             position: absolute;
+            text-decoration: none;
         }
         .project {
-            bottom: 18px;
-            left: 20px;
+            bottom: 3%;
+            left: 6%;
             font-weight: bolder;
         }
         .about {
-            top: 20px;
-            right: 20px;
+            top: 3%;
+            right: 6%;
             font-weight: bolder;
             color: rgb(135, 170, 211);
         }
         .contact {
-            bottom: 18px;
-            right: 18px;
+            bottom: 3%;
+            right: 6%;
             font-weight: bolder;
             color:rgb(135, 170, 211);
         }
@@ -68,9 +78,16 @@ body {
 
     .mid-container {
         border: 10px solid white;
-        width: 45%;
+        width: 40%;
         height: 80%;
         position: absolute;
         top: 9%;
-        left: 51%;
+        left: 53%;
     }
+
+
+
+
+
+
+

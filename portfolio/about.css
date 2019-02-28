@@ -18,10 +18,10 @@ body {
     }
 
         .logo {
-            width: 50px;
-            height: 50px;
+            width: 3%;
+            height: 4%;
             float: left;
-            padding: 10px 0 0 40px; 
+            padding: 2.3% 0 0 6%; 
         }
 
         .iam {
@@ -29,8 +29,8 @@ body {
             font-weight: 800;
             text-transform: uppercase;
             position: absolute;
-            top: 10%;
-            left: 2%;
+            top: 13%;
+            left: 8%;
         }
 
         .aboutMe {
@@ -39,7 +39,7 @@ body {
             color:  #EFEEEA;
             position: absolute;
             top: 30%;
-            left: 2%;
+            left: 8%;
         }
 
 
@@ -49,21 +49,22 @@ body {
             color:#EFEEEA;
             font-weight: bolder;
             position: absolute;
+            text-decoration: none;
         }
         .project {
-            bottom: 20px;
-            left: 20px;
+            bottom: 3%;
+            left: 6%;
             font-weight: bolder;
         }
         .about {
-            top: 20px;
-            right: 20px;
+            top: 3%;
+            right: 6%;
             font-weight: bolder;
             color: rgb(135, 170, 211);
         }
         .contact {
-            bottom: 20px;
-            right: 18px;
+            bottom: 3%;
+            right: 6%;
             font-weight: bolder;
             color:rgb(135, 170, 211);
         }
@@ -75,14 +76,14 @@ body {
         float: left;
     }
 
-.mid-container {
-    border: 10px solid white;
-    width: 40%;
-    height: 80%;
-    position: absolute;
-    top: 9%;
-    left: 51%;
-}
+    .mid-container {
+        border: 10px solid white;
+        width: 40%;
+        height: 80%;
+        position: absolute;
+        top: 9%;
+        left: 53%;
+    }
 
     .hobby-title {
         text-transform: uppercase;
